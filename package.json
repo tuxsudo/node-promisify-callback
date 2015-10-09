@@ -1,6 +1,6 @@
 {
   "name": "promisify-node-callback",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small utility to convert a node callback-based, async function into a promise-based async function",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuxsudo/promisify-node.git"
+    "url": "git+https://github.com/tuxsudo/promisify-node-callback.git"
   },
   "keywords": [
     "promisify",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/tuxsudo/promisify-node/issues"
   },
-  "homepage": "https://github.com/tuxsudo/promisify-node#readme",
+  "homepage": "https://github.com/tuxsudo/promisify-node-callback#readme",
   "dependencies": {
     "es6-promise": "^3.0.2"
   },

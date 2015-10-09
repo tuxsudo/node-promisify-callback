@@ -1,8 +1,8 @@
-# Node Promisify Callback
+# Promisify Node Callback
 
 A small util to convert a callback-based async function into a promise-based async function.
 
-	var promisify = require('node-promisify-callback'),
+	var promisify = require('promisify-node-callback'),
 		readFile = promisify( require('fs').readFile );
 
 	readFile('./package.json').then(function(contents){
@@ -49,6 +49,10 @@ Promisifying turns it into a promise
 
 
 ## Changelog
+
+### 1.0.2
+
+Fixed docs :(
 
 ### 1.0.1
 
